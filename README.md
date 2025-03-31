@@ -2,5 +2,9 @@
 
 To replicate the given page using HTML and CSS only. It has to be responsive too.
 
-![App Screenshot](https://ibb.co/k2JrxtxJ)
+Link to the given template: https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#home
+
+## Task Done
+
+Link to preview: https://harshdeep-template02.netlify.app/
 
