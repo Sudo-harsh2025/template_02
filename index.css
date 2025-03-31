@@ -1,0 +1,264 @@
+/* Global CSS  */
+
+body {
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: block;
+}
+
+h1,h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+p,button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/* Navbar CSS */
+
+.container-top {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 2;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*  headers  */
+
+.hero-container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+  top: 59%;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*   Projects   */
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.image-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.image-card-text {
+  font-size: 1.2rem;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  About */
+
+.team-row {
+  display: flex;
+  gap: 15px;
+}
+
+.team-image-card img {
+  filter: grayscale(80%);
+}
+
+.block {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-style: none;
+  font-size: 15px;
+}
+
+.block:hover {
+  cursor: pointer;
+  background-color: #bdbaba;
+}
+
+/*  Contact  */
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  text-align: start;
+  font-size: 16px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+}
+
+/*  Footer */
+
+.footer {
+  padding: 15px;
+  text-align: center;
+}
+/*  Colors  */
+
+.text-white {
+  color: black;
+  background-color: white;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+.white {
+  color: white !important;
+}
+
+.light-grey {
+  color: #f1f1f1 !important;
+}
+
+/*   Components   */
+
+.button {
+  font-size: 1rem;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.large {
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 2% 2%;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+/*   Paddings & Margins   */
+
+.margin-top {
+  margin-top: 16px !important;
+}
+
+.padding {
+  padding: 8px 16px;
+}
+
+.padding-top {
+  padding-top: 4%;
+}
+
+.padding-bottom {
+  padding-bottom: 12px;
+}
+
+.letter-space {
+  letter-spacing: 4px;
+}
+
+/*  Responsive */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 570px) {
+  .letter-space {
+    letter-spacing: normal;
+  }
+  .padding {
+    padding: 8px 8px;
+  }
+  .large {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    font-size: 12px !important;
+  }
+  .large{
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .large{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
